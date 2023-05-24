@@ -1,0 +1,13 @@
+
+
+const loader = () => {
+    return ( 
+        <div className="position-fixed align-middle" style={{zIndex: 9999}}>
+          <div className="spinner-border text-primary" role="status">
+            <span className="sr-only">Loading...</span>
+          </div>
+        </div>
+      ); 
+}
+
+export default loader
